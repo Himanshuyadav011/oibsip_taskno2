@@ -1,0 +1,114 @@
+/* project_section.css */
+#projects_section{
+max-width: 100%;
+min-height: 100%;
+
+margin-top: 4%;
+margin-bottom: 5%;
+border-bottom:2px solid#A9A9A9 ;
+box-sizing: border-box;
+@media  screen and (max-width: 1000px) {
+    div#projects_text{
+        margin-top: 2%;
+        font-size: 3vw;
+       
+    }
+  
+    .Featured_project{
+        font-size: 8vw;
+    }
+
+div#Explore_btn{
+    flex-direction: row;
+    
+}
+
+
+
+}
+
+
+}
+#projects_text{
+    margin-left: 7%;
+    max-width: 100%;
+    font-size: 2.25vw;
+    text-align: left;
+    
+   
+  
+
+}
+.Featured_project{
+    font-size: 2vw;
+    font-size: 1;
+    color: #A9A9A9;
+}
+
+.Featured_project_text{
+    max-width: 50%;
+    text-align: left;
+
+}
+
+#projects_showcase{
+    margin-top: 2%;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 7%;
+    padding-right: 7%;
+    
+}
+.portfolio_images{
+    flex-basis: 25%; 
+    flex-grow: 0.5; 
+    margin: 10px;
+}
+
+.Portfolio_image{
+    width: 25vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    
+}
+.Portfolio_btn{
+
+    margin: 2% 2% 2% 2%;
+    background-color: transparent;
+    border: 2px solid #ccc;       
+    padding: 1em 2em;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-family: "Urbanist";
+    color: #ececec;                  
+    border-radius: 7em;            
+
+}
+#Explore_btn{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin-top: 1%;
+
+}
+
+
+
+.Explore_btn{
+background: #141414;
+border: 1px solid #484E53;
+border-radius: 2px;
+color: #FFFFFF;
+font-style: italic;
+padding: 1em 2em;
+margin: 2%;
+
+
+}

@@ -1,0 +1,164 @@
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist";
+    color: #f1f1f1;
+    background-color: #0A0A0A;
+}
+
+nav{
+
+    font-size: medium;
+    color: #f1f1f1;
+    font-style: normal;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 26.963px;
+    line-height: 33px;
+    display: flex;
+    margin-left: 3%;
+    margin-right:3% ;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+::-webkit-scrollbar-thumb {
+
+  background: linear-gradient(to top, lime, 20%, cyan);
+  border-radius: 7px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+
+#heading{
+ min-height: 80vh;   
+margin-top: 7%;
+text-align: center;
+font-size: 3vw;
+padding: 0px;
+display: inline-block;
+line-height: 3vw;
+font-weight: 200;
+width: 100%;
+border-bottom: #A9A9A9 solid 0.1vw;
+
+
+  
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    min-height: 40vh; 
+   
+}
+
+@media screen and (max-width: 520px) {
+    margin-top: 8%;
+    font-size: 4vw; 
+
+   
+}
+
+
+
+}
+
+
+#heading_text{
+ width: 60ch;
+ animation: typing 2.5s steps(22) forwards, blink 0.2s step-end 2s 1 forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  
+}
+
+
+.spantextstyle{
+    color: #5F5F5F;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+
+}
+
+
+
+
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 60ch;
+    }
+
+
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+    to {
+      border-color: transparent;
+      /* Same as the final width */
+    }
+
+  }
+
+
+
+
+#btn_1 {
+    margin-top: 1%;
+    background-color: transparent;
+    border: 2px solid #ccc;       
+    padding: 1em 3em;
+    text-decoration: none;
+    font-family: "Urbanist";
+    font-size: 1.6vw;
+    color: #ececec;                  
+    border-radius: 7em;            
+
+}
+
+#btn_1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+    transition: .5s;
+}
+
+#hand{
+    width: 2vw;
+}
